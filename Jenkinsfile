@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Deploy') {
+    stage('build') {
       steps {
-        echo 'Hello world'
+        bat 'ipconfig'
       }
     }
 
